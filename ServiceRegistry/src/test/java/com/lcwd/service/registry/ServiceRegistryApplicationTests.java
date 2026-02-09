@@ -3,10 +3,10 @@ package com.lcwd.service.registry;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest(properties = {
-    "eureka.client.enabled=false",
-    "spring.cloud.service-registry.auto-registration.enabled=false"
-})
+//@SpringBootTest(properties = {
+//    "eureka.client.enabled=false",
+//    "spring.cloud.service-registry.auto-registration.enabled=false"
+//})
 class ServiceRegistryApplicationTests {
 
 	@Test

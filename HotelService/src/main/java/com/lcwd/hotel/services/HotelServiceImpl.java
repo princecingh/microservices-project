@@ -30,7 +30,7 @@ public class HotelServiceImpl implements HotelService{
     @Override
     public Hotel getHotel(String hotelId) {
         Hotel hotel = hotelRepository.findById(hotelId).orElseThrow(() -> new ResourceNotFoundException("Hotel with given id not found !!"));
-        return null;
+        return hotel;
     }
 
     @Override
